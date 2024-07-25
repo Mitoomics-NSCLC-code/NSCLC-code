@@ -37,7 +37,7 @@ picard-tools==1.81
 ```
 
 ### Installation Guide
-1.Install anaconda 2.Create and activate virtul envirment
+Install anaconda 2.Create and activate virtul envirment
 
 ```
 conda create -n your_env_name python=3.10.9  
@@ -50,10 +50,12 @@ install.packages ("randomForest")
 ```
 
 ### Running and outputs
+*Running*
 We have put the cfDNA fragment compute scripts together in a shell script named run_fragment_study.sh.Opening a terminal and run the scprit as follow:
 ```
 bash run_fragment_study.sh
 ```
+*Outputs*
 The output of run_fragment_study.sh as follow:
 ```
 fragment_study
