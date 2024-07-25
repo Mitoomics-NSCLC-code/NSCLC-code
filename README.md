@@ -37,13 +37,13 @@ picard-tools==1.81```
 ### Installation Guide
 1.Install anaconda 2.Create and activate virtul envirment
 
-`conda create -n your_env_name python=3.10.9  
+```conda create -n your_env_name python=3.10.9  
 source activate your_env_name  
 pip install pandas==1.5.3 scipy==1.10.0 pysam==0.22.0  
 conda install samtools  
 conda install r-base=4.3.0  
 #R language mode insatll model package  
-install.packages ("randomForest")`  
+install.packages ("randomForest")```
 
 ### Running and outputs
 We have put the cfDNA fragment compute scripts together in a shell script named run_fragment_study.sh.Opening a terminal and run the scprit as follow:
