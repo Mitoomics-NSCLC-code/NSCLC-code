@@ -27,17 +27,12 @@ Before setting up the package, users should have R version 3.4.0 or higher , ran
 
 The code mainly depends on the Python scientific stack.
 
-`numpy==1.23.5 
-
+```numpy==1.23.5
 pandas==1.5.3
-
 scipy==1.10.0
-
 pysam==0.22.0
-
 samtools==1.15.1
-
-picard-tools==1.81`
+picard-tools==1.81```
 
 ### Installation Guide
 1.Install anaconda 2.Create and activate virtul envirment
