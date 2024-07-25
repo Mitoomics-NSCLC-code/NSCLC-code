@@ -36,6 +36,7 @@ picard-tools==1.81`
 
 ### Installation Guide
 1.Install anaconda 2.Create and activate virtul envirment
+
 `conda create -n your_env_name python=3.10.9
 source activate your_env_name
 pip install pandas==1.5.3 scipy==1.10.0 pysam==0.22.0
