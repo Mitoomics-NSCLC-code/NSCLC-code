@@ -27,28 +27,28 @@ Before setting up the package, users should have R version 3.4.0 or higher , ran
 
 The code mainly depends on the Python scientific stack.
 
-`<numpy==1.23.5
+`numpy==1.23.5
 pandas==1.5.3
 scipy==1.10.0
 pysam==0.22.0
 samtools==1.15.1
-picard-tools==1.81>`
+picard-tools==1.81`
 
 ### Installation Guide
 1.Install anaconda 2.Create and activate virtul envirment
-`<conda create -n your_env_name python=3.10.9
+`conda create -n your_env_name python=3.10.9
 source activate your_env_name
 pip install pandas==1.5.3 scipy==1.10.0 pysam==0.22.0
 conda install samtools
 conda install r-base=4.3.0
 #R language mode insatll model package
-install.packages ("randomForest")>`
+install.packages ("randomForest")`
 
 ### Running and outputs
 We have put the cfDNA fragment compute scripts together in a shell script named run_fragment_study.sh.Opening a terminal and run the scprit as follow:
 `<bash run_fragment_study.sh>`
 The output of run_fragment_study.sh as follow:
-`<fragment_study
+`fragment_study
 ├── fragment_study/insertszie
 │   ├── fragment_study/insertszie/cumsumfrequency
 │   │   ├── fragment_study/insertszie/cumsumfrequency/mis10_insertsize_cufrequency.csv
@@ -90,7 +90,7 @@ The output of run_fragment_study.sh as follow:
             ├── fragment_study/mis_10_splitedBy125/FSD/peaks/similar2HC_peaks_feature.csv
             ├── fragment_study/mis_10_splitedBy125/FSD/peaks/similar_diff_peak_counts.csv
             ├── fragment_study/mis_10_splitedBy125/FSD/peaks/smothed_para_51_1_filteredBywidth_5_peaks_feature.csv
-            └── fragment_study/mis_10_splitedBy125/FSD/peaks/zfsd_smothed_para_51_1.csv>`
+            └── fragment_study/mis_10_splitedBy125/FSD/peaks/zfsd_smothed_para_51_1.csv`
 
 ### Issues
 If you're having trouble, notice a bug, or want to contribute (such as a fix to the bug you may have just found) feel free to open a git issue or pull request. Enjoy!
