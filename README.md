@@ -5,7 +5,6 @@
 * [System Requirements](#System-Requirements)
 * [Installation Guide](#Installation-Guide)
 * [Running and outputs](#Running-and-outputs)
-* [License](#License)
 * [Issues](#Issues)
 ### Overview
 NSCLC_code is a package containing tools for comprehensive analysis of ccf-mtDNA fragmentomic features, that is capable of dealing with sequencing data. NSCLC_code can also be utilized to calculate the probability of developing non-small cell lung cancer, enabling differential diagnosis between benign and malignant lung diseases, and facilitating early diagnosis of NSCLC.
