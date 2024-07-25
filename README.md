@@ -37,9 +37,7 @@ pysam==0.22.0
 
 samtools==1.15.1
 
-picard-tools==1.81
-
-`
+picard-tools==1.81`
 
 ### Installation Guide
 1.Install anaconda 2.Create and activate virtul envirment
