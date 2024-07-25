@@ -93,8 +93,5 @@ The output of run_fragment_study.sh as follow:
             ├── fragment_study/mis_10_splitedBy125/FSD/peaks/smothed_para_51_1_filteredBywidth_5_peaks_feature.csv
             └── fragment_study/mis_10_splitedBy125/FSD/peaks/zfsd_smothed_para_51_1.csv>`
 
-### License
-This project is covered under the Apache 2.0 License.
-
 ### Issues
 If you're having trouble, notice a bug, or want to contribute (such as a fix to the bug you may have just found) feel free to open a git issue or pull request. Enjoy!
