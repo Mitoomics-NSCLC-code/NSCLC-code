@@ -50,12 +50,12 @@ install.packages ("randomForest")
 ```
 
 ### Running and outputs
-*Running*
+*Running*  
 We have put the cfDNA fragment compute scripts together in a shell script named run_fragment_study.sh.Opening a terminal and run the scprit as follow:
 ```
 bash run_fragment_study.sh
 ```
-*Outputs*
+*Outputs*  
 The output of run_fragment_study.sh as follow:
 ```
 fragment_study
